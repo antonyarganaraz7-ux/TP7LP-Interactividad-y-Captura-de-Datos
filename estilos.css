@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6f2ff; 
+    margin: 20px;
+}
+
+
+.header {
+    background-color: #74acdf; 
+    color: white;
+    padding: 10px;
+    border: 2px solid #002b49;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+
+.seccion-sobres {
+    background-color: white;
+    border: 2px solid gray;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.seccion-figuritas {
+    background-color: white;
+    border: 2px solid gray;
+    padding: 15px;
+}
+
+
+.boton-interactivo {
+    display: inline-block;
+    background-color: #0056b3;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+
+.boton-interactivo:hover {
+    background-color: #28a745; 
+    font-size: 18px;            
+}
+
+
+.figurita {
+    border: 2px solid #74acdf;
+    background-color: #fafafa;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+
+.imagen-figurita {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    border: 2px solid black;
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+.lista-atributos {
+    list-style-type: square;
+}
+
+
+.nueva {
+    color: red;
+}
+
+.legendaria {
+    color: gold;
+    background-color: black;
+    padding: 2px 5px;
+}
+
+.normal {
+    color: blue;
+}
+
+
+/*Estilos para el formulario de registro*/
+
+.seccion-registro {
+    background-color: white;
+    border: 2px solid gray;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+select,
+textarea {
+    padding: 6px;
+    margin-top: 5px;
+    border: 1px solid #74acdf;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    padding: 10px 15px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+input[type="submit"] {
+    background-color: #0056b3;
+    color: white;
+}
+
+input[type="reset"] {
+    background-color: #74acdf;
+    color: white;
+}
